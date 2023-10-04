@@ -6,7 +6,7 @@ console.log(scoreinNumber);
 console.log(typeof scoreinNumber); 
 //Case 02
 let score1="33abs" //Numberwithalphabets associated 
-let scoreinNumber1=Number(score);
+let scoreinNumber1=Number(score1);
 console.log(scoreinNumber1);
 console.log(typeof scoreinNumber1); 
 
@@ -26,6 +26,13 @@ let isloggedin1=""//Empty String
 let boolean1=Boolean(isloggedin1)
 console.log(boolean1)
 
+let isloggedin2=1
+let boolean2=Boolean(isloggedin2)
+console.log(boolean2)
+
+let isloggedin3=0
+let boolean3=Boolean(isloggedin3)
+console.log(boolean3)
 /*Observations 
 "Sumit"=>String to Boolean=> true
 ""=>Empty String to boolean ==> false
