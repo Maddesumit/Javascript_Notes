@@ -5,7 +5,7 @@ let scoreinNumber=Number(score);
 console.log(scoreinNumber);
 console.log(typeof scoreinNumber); 
 //Case 02
-let score1="33abs" //Numberwithalphabets associated 
+let score1="33abs" //Number with alphabets associated 
 let scoreinNumber1=Number(score1);
 console.log(scoreinNumber1);
 console.log(typeof scoreinNumber1); 
@@ -44,3 +44,4 @@ let someNumber=33
 let string1=String(someNumber)
 console.log(string1)
 console.log(typeof string1) //"33"
+
