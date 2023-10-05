@@ -53,7 +53,7 @@ let object={
 }
 //Functions
 let myfunction= function(){
-
 }
+// https://262.ecma-international.org/5.1/#sec-11.4.3
 
 "use strict"; //Use to treat all JS code in newer version
