@@ -7,8 +7,8 @@ console.log(typeof scoreinNumber);
 //Case 02
 let score1="33abs" //Number with alphabets associated 
 let scoreinNumber1=Number(score1);
-console.log(scoreinNumber1);
-console.log(typeof scoreinNumber1); 
+console.log(scoreinNumber1); //Value will be NaN
+console.log(typeof scoreinNumber1);  // will be converted in Number, 
 
 //Keypoints or observations
 /*

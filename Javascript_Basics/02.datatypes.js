@@ -36,6 +36,8 @@ const anotherId = Symbol('123')
 console.log(typeof id);
 
 //07. bigInt
+//Used to store big numbers, 
+//-> n is placed at last of number, to say the number is bigint
 let bigInt=373646487356896589638095678347309270735570956025n;
 console.log(typeof bigInt);
 

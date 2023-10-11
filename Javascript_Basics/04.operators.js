@@ -21,14 +21,14 @@ console.log(str3)
 
 //Confusing operations
 let num1="1"+2
-console.log(num1)
-console.log(typeof num1);
+console.log(num1) //12
+console.log(typeof num1); //String
 
 let num2=1+"2"
-console.log(num2)
-console.log(typeof num2); 
+console.log(num2) //12
+console.log(typeof num2); // String
 
-console.log("1" + 2 + 2); // type=String because 1st operand is string
+console.log("1" + 2 + 2); // type=String ,because 1st operand is string
 console.log(1 + 2 + "2"); //type = Number because 1st operand is number
 
 let gameCounter = 100
