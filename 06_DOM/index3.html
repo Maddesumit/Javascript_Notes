@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM PART 3</title>
+    
+</head>
+<body>
+<!--Creating new HTML Element using DOM -->
+
+    
+</body>
+<script>
+    let
+    const div=document.createElement('div')
+    console.log(div)
+    div.className='div1'
+    div.id='my-id'
+    div.setAttribute("title","hello")
+    div.innerText="Welcome to our Website" //It overwrite the value, so try to prefer createTextNode method
+    //or
+    const text=document.createTextNode("hello Welcome to our website")
+    div.appendChild(text)
+</script>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Listners in JS</title>
+</head>
+<body>
+    <p>Welcome to my Website</p>
+    <h4 id="heading">
+        Hey My Name is<span> Sumit madde :)</span>  </h4>
+
+    <button  id="button"> Click Me </button>
+
+    <!--
+        <button onclick="console.log('clicked')">Clcik me  </button>
+    -->
+</body>
+<script>
+
+    const ele=document.getElementById("button")
+    console.log(ele)
+    const heading=document.getElementById("heading")
+    // ele.onclick=function(){
+    //     console.log("Hello World")
+    //     alert("Hey there! you clicked on button")
+    // }; Drawback=" If same onclick is appiled on another scipt file, then it will over write with new one"
+    ele.addEventListener('click',()=>{
+        if(heading.style.color==='red'){
+            heading.style.color='blue'
+        }
+        else{
+            heading.style.color='red'
+        }
+    })
+    
+</script>
+</html>

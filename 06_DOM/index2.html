@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM | Part 2</title>
+</head>
+<body style="background-color: #212121; color: white;">
+    <div class="parent"> 
+        <div class="day">Monday</div>
+        <div class="day">Tuesday</div>
+        <div class="day">Wednesday</div>
+        <div class="day">Thursday</div>
+    </div>
+    
+</body>
+<script>
+    //Accessing children element using parent node
+const parent=document.querySelector('.parent')
+console.log(parent)
+console.log(parent.children) //give HTMLCollection
+console.log(parent.children[1]) //return complete div of tuesday
+console.log(parent.children[1].innerHTML) //return only tuesday
+
+for(let i=0; i<parent.children.length;i++){
+    console.log(parent.children[i].innerHTML)
+}
+parent.children[1].style.color='Orange'
+
+//Important property of parent element to access firsta nd last children
+console.log(parent.firstElementChild)
+console.log(parent.lastElementChild) 
+
+//If we are having first element, thn we can track parent and sibling element
+const firstElement=document.querySelector('.day');
+console.log(firstElement)
+console.log(firstElement.parentElement)
+console.log(firstElement.nextElementSibling)
+
+// Important- Helfull for react open source
+console.log("Nodes:",parent.childNodes) // As we are having only 4 div in parent, but to it is returing 9 in nodelist, it significance that childnode consist detail of even line break, new line , comment etc 
+//A nodelist is a collection of document nodes which includes text nodes , attribute nodes and element nodes. A line break is also counted in nodelist but only first one. All subsequent line breaks are ignored by browser
+
+
+</script>
+</html>

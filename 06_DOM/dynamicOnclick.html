@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic onclick</title>
+</head>
+<body>
+ <!--
+ Goal-: On click on button or anything, a new element must be created using DOM Manipulation   
+ -->   
+<div id="my-container"> </div>
+<button id="button"> Click here to generate random numbers</button>
+</body>
+<script>
+    let count=1
+const container=document.getElementById('my-container')
+const button=document.getElementById('button')
+
+// button.addEventListener('click',()=>{
+//     const el= document.createElement('h4')
+//     el.innerText=Math.floor((Math.random()*10));
+//     container.appendChild(el)
+// })
+
+//Random Number creating in form of list
+// button.addEventListener('click',()=>{
+//     const el= document.createElement('li')
+//     el.innerText=Math.floor((Math.random()*10));
+//     container.appendChild(el)
+//     count++;
+// })
+
+button.addEventListener('click',()=>{
+    const ele1=document.createElement('p')
+    ele1.innerText="lorem"
+    container.appendChild(ele1)
+})
+</script>
+</html>
