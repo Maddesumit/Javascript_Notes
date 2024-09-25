@@ -11,12 +11,13 @@ console.log(newHeros);
 //Instead of concat method, we can use spread operator, to combine arrays, using spread operator we can combine as many as array
 //03.Spread
 const all_heros=[...marvel_heros, ...dc_heros]
+console.log(all_heros) //Same output as of concat
 
-//If there are many arrays within arrays-> We can use method known as flat
+//If there are many arrays within arrays-> We can use method known as flat-->Combine nested array into songle array
 const anotherArray=[1,2,3,[3,4,5,[4,5,6,7,[4,6,7,8,4]]]]
 
 //04.Flat
-const real_another_array=anotherArray.flat(Infinity /*Here we have to provide depth but we can use infinity */)
+const real_another_array=anotherArray.flat(Infinity) /*Here we have to provide depth but we can use infinity */
 console.log(real_another_array);
 
 //06. isArray

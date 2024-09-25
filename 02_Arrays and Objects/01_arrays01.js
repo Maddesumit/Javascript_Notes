@@ -25,21 +25,22 @@ arr3.shift() //Removes first element from the array
 
 // console.log(arr3.indexOf("Sumit")) // Return the index
 
-// const newArr=arr3.join() //Convert all arrays into strings
+const newArr=arr3.join() //Convert all arrays into strings
 // console.log(newArr);
+// console.log(typeof(aar1))
 
 //Slice and Splice
 
 const newArray=[1,2,3,4,5,6,7,8,9]
 
-console.log(newArray.slice(1,4)) // 1,4 are index of array
+// console.log(newArray.slice(1,4)) // 1,4 are index of array
 //Returns the values of mentioned indexies,but last element of index will be excluded.
-console.log(newArray) //There will be no change in array when slice is used.
+// console.log(newArray) //**There will be no change in array when slice is used.
 
 console.log(newArray.splice(1,4)) // Are mentioned elemets will be printed
 //Splice-: Removes elements from an array and, if necessary, inserts new elements in their place, returning the deleted elements.
 console.log(newArray)
-//{Important}=> After "splice" the element from the array will be removed
+//{Important}=> **After "splice" the element from the array will be removed
 
 /*
 When we want to display some elements from array using indexies(Elements will be not be deleted) --> Slice

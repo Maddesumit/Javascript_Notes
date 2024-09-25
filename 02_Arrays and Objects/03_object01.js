@@ -23,7 +23,7 @@ const user={
 
 console.log(user.emailId);
 console.log(user.mobile)
-console.log(user["mobile"])
+console.log(user["mobile"]) 
 console.log(user["name"]);
 
 /*

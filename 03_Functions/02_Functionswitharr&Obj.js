@@ -3,18 +3,19 @@
 
 let userData={
     name:"Sumit",
-    email:"learcode@google.com",
+    email:"learncode@gmail.com",
     mobile:"90198272865"
     }
     
     function userDeatail(object){
     
-        return `Welcome ${object.name} to our applciation, price is ${object.mobile}`
+        return `Welcome ${object.name} to our applciation, mobile is ${object.mobile}`
     }
+  
     console.log(userDeatail(userData)); //share object name
     console.log(userDeatail({           //Directly we can share object completely
         name:"Sumit",
-        email:"learcode@google.com",
+        email:"learcode@gmail.com",
         mobile:"90198272865"
         }));
     
